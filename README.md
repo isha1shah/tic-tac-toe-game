@@ -6,10 +6,12 @@ A simple and interactive 2-player Tic Tac Toe game built using **HTML**, **CSS**
 
 ## 🚀 Live Demo
 
-👉 [Play the Game](https://isha1shah.github.io/tic-tac-toe-game/)  
-*(Link will work after GitHub Pages is enabled)*
+👉 [Play the Game](https://isha1shah.github.io/tic-tac-toe-game/) 
 
 ---
+## 📸 Screenshot
+
+![Tic Tac Toe Screenshot](tic-tac-toe.png)
 
 ## 🧩 Features
 
@@ -49,5 +51,5 @@ Built as a fun project to practice JavaScript DOM manipulation and frontend deve
 Found a bug or have a feature request? Open an issue or create a pull request!
 
 ⭐ Don't forget to star this repository if you found it useful!
-## 📂 Folder Structure
+
 
