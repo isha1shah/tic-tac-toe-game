@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #4A102A;
+    text-align: center;
+}
+h1{
+    color: #FFEAD8;
+    font-size: 3rem;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #22667e;
+    color: aliceblue;
+    border-radius: 0.6rem;
+    border-color:rgb(212, 161, 86);
+}
+#new-btn{
+     padding: 1rem;
+    font-size: 1rem;
+    background-color: #22667e;
+    color: aliceblue;
+    border-radius: 0.6rem;
+    border-color:rgb(212, 161, 86);
+    transition: background-color 0.3s ease;
+}
+#new-btn:hover, #reset:hover {
+  background-color: #1b4e61;
+}
+#msg {
+  font-size: 10vmin;
+  font-weight: bold;
+  color: #fcf259;
+  animation: glowFade 1.5s ease-in-out infinite alternate;
+  text-align: center;
+  border: none;
+}
+
+ .msg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.hide{
+    display: none;
+}
+.x {
+  color: aqua;
+}
+.o {
+  color: rgb(42, 168, 25);
+}
+
+.player-names {
+  color: white;
+  margin: 1rem auto;
+}
+.player-names input{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+#start-game{
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+#start-game:hover{
+    background: #16762e;
+}
+#msg.glow {
+  text-shadow: 0 0 10px #fff700, 0 0 20px #ffae00, 0 0 30px #ff0000;
+  animation: glowFade 1s ease-in-out infinite alternate;
+} 
+
+@keyframes glowFade {
+  from {
+    text-shadow: 0 0 10px #fff700, 0 0 20px #ffae00, 0 0 30px #ff0000;
+  }
+  to {
+    text-shadow: 0 0 2px #fff700, 0 0 10px #ffae00, 0 0 15px #ff0000;
+  }
+}
+

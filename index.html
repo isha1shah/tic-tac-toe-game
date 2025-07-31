@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <audio id="draw-sound" src="game-over-39-199830.mp3"></audio>
+    <audio id="win-sound" src="goodresult-82807.mp3" preload="auto"></audio>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="new-btn">New Game</button>
+    </div>
+    <h1>TIC TAC TOE</h1>
+     <div class="player-names">
+        <label>Player 1 (X):</label>
+        <input type="text" id="player1" placeholder="Enter name for X">
+        <label>Player 2 (O):</label>
+        <input type="text" id="player2" placeholder="Enter name for O">
+        <button id="start-game">Start Game</button>
+    </div>
+    <div class="container">
+        <div class="game">
+           <button class="box"></button>
+           <button class="box"></button>
+           <button class="box"></button>
+           <button class="box"></button>
+           <button class="box"></button>
+           <button class="box"></button>
+           <button class="box"></button>
+           <button class="box"></button>
+           <button class="box"></button>
+        </div>
+    </div>
+    <button id="reset">Reset game</button>
+    <script src="first.js"></script>
+</body>
+</html>
